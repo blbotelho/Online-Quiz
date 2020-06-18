@@ -39,6 +39,6 @@ function check(){
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 	document.getElementById("picture").src = pictures[score];
 	}
-	function myFunction() {
+	function restart() {
         document.getElementById("reset").innerHTML = "The form was reset";
       }
