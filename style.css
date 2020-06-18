@@ -10,7 +10,7 @@ h1.header {
 
 #quiz {
 	margin-left: 10px;
-	background: #BEBEBE;	
+	background: #D3D3D3;	
 	padding: 10px 20px 10px 20px;
 	width: 400px;
 	border-radius: 20px;
@@ -33,7 +33,7 @@ input {
 
 
 #button, #reset {
-	background: tomato;
+	background: #cfb997;
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
@@ -47,7 +47,7 @@ input {
 
 #button:hover, #reset:hover {
 	background: white;
-	border: 1px solid tomato;
+	border: 1px solid #cfb997;
 	color: black;
 	cursor: pointer;
 
