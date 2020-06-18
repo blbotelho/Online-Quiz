@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>The Everything Quiz</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>The Everything Quiz! Riddles, questions, and more!</h1>
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">David's father has three sons: Snap, Crackle, and _____?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">Which is NOT part of the Cactus Enterprise?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Feather-Cactus"> Feather-Cactus<br>
+<input type = "radio" id = "mc" name = "question2" value = "Cactus-Coffee"> Cactus-Coffee<br>
+<input type = "radio" id = "mc" name = "question2" value = "Lucky-Cactus"> Lucky-Cactus<br>
+<input type = "radio" id = "mc" name = "question2" value = "Cactus-Sleep"> Cactus-Sleep<br>
+
+<p class = "questions">What kind of animal "trading" service did Kim present?</p>
+<input type = "radio" id = "mc" name = "question3" value = "Kangaroo"> Kangaroo<br>
+<input type = "radio" id = "mc" name = "question3" value = "Shark"> Shark<br>
+<input type = "radio" id = "mc" name = "question3" value = "Armadillo"> Armadillo<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
