@@ -40,5 +40,5 @@ function check(){
 	document.getElementById("picture").src = pictures[score];
 	}
 	function restart() {
-        document.getElementById("reset").innerHTML = "The form was reset";
+        document.location.href = ('');
       }
